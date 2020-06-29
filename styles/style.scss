@@ -7,34 +7,64 @@
     font-weight: 400;
 }
 
+.interface_one {
+    .card {
+        .image {
+            display: block;
+            max-width: auto;
+            height: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .test {
+            height: 200px;
+            padding-top: 25%;
+        }
+
+        .text {
+            padding-top: 24px;
+
+            h2 {
+                color: rgb(144, 202, 144);
+                font-size: 24px;
+            }
+
+            P {
+                color: rgb(88, 88, 88);
+                font-size: 16px;
+            }
+
+            strong {
+                font-weight: 32px;
+            }
+        }
+    }
+}
+
+.interface_three {
+
+    .image {
+        height: auto;
+        width: 100%;
+    }
+h2 {
+    font-size: 28px;
+}
+
 .card {
-.image {
-    display: block;
-    max-width: auto;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
+    border: 1px solid grey;
+    padding:0;
 
-.test {
-    height:200px;
-    padding-top: 25%;
-}
-
-.text {
-    padding-top: 24px;
-    h2 {
-        color:rgb(144, 202, 144);
-        font-size: 24px;
+    .picture {
+        margin:0;
+        padding:0;
     }
 
-    P{
-        color: rgb(88, 88, 88);
-        font-size: 16px;
-    }
-
-    strong {
-        font-weight: 32px;
+    .text {
+        padding-left: 5%;
     }
 }
+
+
 }

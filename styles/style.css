@@ -3,9 +3,15 @@ body {
   margin: 24px;
 }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 [class*="col-"] {
   float: left;
-  padding: 20px;
+  padding: 15px;
 }
 
 /* For mobile phones: */
@@ -179,7 +185,7 @@ body {
   font-weight: 400;
 }
 
-.card .image {
+.interface_one .card .image {
   display: block;
   max-width: auto;
   height: 200px;
@@ -187,26 +193,49 @@ body {
   margin-right: auto;
 }
 
-.card .test {
+.interface_one .card .test {
   height: 200px;
   padding-top: 25%;
 }
 
-.card .text {
+.interface_one .card .text {
   padding-top: 24px;
 }
 
-.card .text h2 {
+.interface_one .card .text h2 {
   color: #90ca90;
   font-size: 24px;
 }
 
-.card .text P {
+.interface_one .card .text P {
   color: #585858;
   font-size: 16px;
 }
 
-.card .text strong {
+.interface_one .card .text strong {
   font-weight: 32px;
+}
+
+.interface_three .image {
+  height: auto;
+  width: 100%;
+}
+
+.interface_three h2 {
+  font-size: 28px;
+}
+
+.interface_three .card {
+  border: 1px solid grey;
+  padding: 0;
+}
+
+.interface_three .card .picture {
+  margin: 0;
+  padding: 0;
+}
+
+.interface_three .card .text {
+  padding-left: 5%;
 }
 /*# sourceMappingURL=style.css.map */

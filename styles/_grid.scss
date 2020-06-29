@@ -2,9 +2,15 @@ body {
     margin: 24px;
 }
 
-[class*="col-"] {
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
     float: left;
-    padding: 20px;
+    padding: 15px;
   }
 
 /* For mobile phones: */
