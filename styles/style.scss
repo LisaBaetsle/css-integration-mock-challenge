@@ -106,3 +106,58 @@
     }
 
 }
+
+.container_table {
+    background-color: cornflowerblue;
+    color: rgb(232, 232, 250);
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        font-size: 60px;
+        margin-top: 0;
+
+    }
+
+    img {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    td {
+        border-top: 1px solid rgb(182, 204, 245);
+        padding-left: 4px;
+    }
+
+    th {
+        color: rgb(182, 204, 245);
+    }
+
+    .button {
+        width: 100%;
+        border:none;
+        border-top: 1px solid rgb(182, 204, 245);
+        background-color: cornflowerblue;
+        color: rgb(232, 232, 250);
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: right;
+    }
+
+    .fa {
+        padding-left: 16px;
+    }
+
+}

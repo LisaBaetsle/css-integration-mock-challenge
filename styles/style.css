@@ -271,4 +271,57 @@ body {
   float: left;
   width: 60%;
 }
+
+.container_table {
+  background-color: cornflowerblue;
+  color: #e8e8fa;
+}
+
+.container_table h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.container_table h3 {
+  font-size: 60px;
+  margin-top: 0;
+}
+
+.container_table img {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container_table table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.container_table td {
+  border-top: 1px solid #b6ccf5;
+  padding-left: 4px;
+}
+
+.container_table th {
+  color: #b6ccf5;
+}
+
+.container_table .button {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #b6ccf5;
+  background-color: cornflowerblue;
+  color: #e8e8fa;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: right;
+}
+
+.container_table .fa {
+  padding-left: 16px;
+}
 /*# sourceMappingURL=style.css.map */
