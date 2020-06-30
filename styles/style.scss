@@ -1,4 +1,5 @@
 @import "_grid";
+@import "_colors";
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Merriweather+Sans:wght@700&family=Noto+Sans+TC:wght@400;700&family=Oswald:wght@300;400&display=swap');
 
 * {
@@ -13,7 +14,7 @@ body {
 
 /* Interface one */
 .interface_one {
-    border-bottom: 2px dotted grey;
+    border-bottom: 2px dotted $grey;
     padding-bottom: 30px;
     margin-bottom: 50px;
 
@@ -37,12 +38,12 @@ body {
             padding-top: 24px;
 
             h2 {
-                color: rgb(144, 202, 144);
+                color: $green;
                 font-size: 24px;
             }
 
             P {
-                color: rgb(88, 88, 88);
+                color: $grey;
                 font-size: 16px;
             }
         }
@@ -57,14 +58,14 @@ body {
 
 /* Interface two */
 .interface_two {
-    border-bottom: 2px dotted grey;
+    border-bottom: 2px dotted $grey;
     padding-bottom: 50px;
     margin-bottom: 50px;
 }
 
 .container_table {
-    background-color: #4285f4;
-    color: #f0f5ff;
+    background-color: $bright_blue;
+    color: $white_blue;
 
     h2 {
         font-size: 20px;
@@ -91,20 +92,20 @@ body {
     }
 
     td {
-        border-top: 1px solid #cedffc;
+        border-top: 1px solid $light_blue;
         padding-left: 4px;
     }
 
     th {
-        color: #cedffc;
+        color: $light_blue;
     }
 
     .button {
         width: 100%;
         border: none;
         border-top: 1px solid #cedffc;
-        background-color: #4285f4;
-        color: #f0f5ff;
+        background-color: $bright_blue;
+        color: $white_blue;
         padding: 14px 28px;
         font-size: 16px;
         cursor: pointer;
@@ -120,10 +121,10 @@ body {
 /* Interface three */
 .interface_three {
     font-family: 'Oswald', sans-serif;
-    color: #333333;
+    color: $dark_grey;
 
     .card {
-        border: 1px solid grey;
+        border: 1px solid $grey;
         padding: 0;
         height: 500px;
 
@@ -154,7 +155,7 @@ body {
 
     h3 {
         font-size: 24px;
-        color: #929292;
+        color: $grey_three;
     }
 
 
@@ -163,7 +164,7 @@ body {
 .writer {
     display: flex;
     align-items: center;
-    color: #929292;
+    color: $grey_three;
     padding-top: 20%;
 
 
@@ -185,7 +186,7 @@ body {
 
     h4 {
         font-weight: 500;
-        color: #333333;
+        color: $grey;
     }
 
     .author {
