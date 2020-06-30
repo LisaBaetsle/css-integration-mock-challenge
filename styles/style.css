@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Mono&family=Noto+Sans+TC:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&family=Merriweather+Sans:wght@700&family=Noto+Sans+TC:wght@400;700&family=Oswald:wght@300;400&display=swap");
 body {
   margin: 24px;
 }
@@ -241,8 +241,8 @@ body {
 }
 
 .container_table {
-  background-color: cornflowerblue;
-  color: #e8e8fa;
+  background-color: #4285f4;
+  color: #f0f5ff;
 }
 
 .container_table h2 {
@@ -252,7 +252,7 @@ body {
 
 .container_table h3 {
   font-size: 60px;
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .container_table img {
@@ -269,20 +269,20 @@ body {
 }
 
 .container_table td {
-  border-top: 1px solid #b6ccf5;
+  border-top: 1px solid #cedffc;
   padding-left: 4px;
 }
 
 .container_table th {
-  color: #b6ccf5;
+  color: #cedffc;
 }
 
 .container_table .button {
   width: 100%;
   border: none;
-  border-top: 1px solid #b6ccf5;
-  background-color: cornflowerblue;
-  color: #e8e8fa;
+  border-top: 1px solid #cedffc;
+  background-color: #4285f4;
+  color: #f0f5ff;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
@@ -294,6 +294,11 @@ body {
 }
 
 /* Interface three */
+.interface_three {
+  font-family: 'Oswald', sans-serif;
+  color: #333333;
+}
+
 .interface_three .card {
   border: 1px solid grey;
   padding: 0;
@@ -317,13 +322,22 @@ body {
 }
 
 .interface_three h2 {
-  font-size: 28px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Merriweather Sans', sans-serif;
+  letter-spacing: -1px;
+  line-height: 2.6rem;
+}
+
+.interface_three h3 {
+  font-size: 24px;
+  color: #929292;
 }
 
 .writer {
   display: flex;
   align-items: center;
-  color: grey;
+  color: #929292;
   padding-top: 20%;
 }
 
@@ -331,6 +345,7 @@ body {
   float: left;
   width: 70px;
   margin-right: 30px;
+  border-radius: 50%;
 }
 
 .writer h4,
@@ -342,7 +357,7 @@ body {
 
 .writer h4 {
   font-weight: 500;
-  color: black;
+  color: #333333;
 }
 
 .writer .author {
